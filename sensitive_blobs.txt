@@ -1,0 +1,424 @@
+# -------------------------------------------------------
+# Azure Blob Storage - Sensitive Blob/File Name Wordlist
+# Author  : Mustafa Salha
+# Purpose : Search for sensitive files inside open containers
+# Usage   : Use as a reference or integrate into custom tooling
+# -------------------------------------------------------
+
+# -------------------------------------------------------
+# ENVIRONMENT & CONFIG FILES
+# -------------------------------------------------------
+.env
+.env.local
+.env.dev
+.env.development
+.env.test
+.env.testing
+.env.staging
+.env.prod
+.env.production
+.env.backup
+.env.old
+.env.bak
+env.js
+env.json
+env.yaml
+env.yml
+config.env
+app.env
+server.env
+database.env
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.secret.json
+web.config
+app.config
+config.json
+config.yaml
+config.yml
+config.ini
+config.xml
+config.php
+config.rb
+settings.json
+settings.yaml
+settings.yml
+settings.ini
+configuration.json
+configuration.yaml
+application.properties
+application.yml
+application-dev.yml
+application-prod.yml
+application-staging.yml
+bootstrap.yml
+bootstrap.properties
+docker-compose.yml
+docker-compose.yaml
+docker-compose.override.yml
+.dockerenv
+Makefile
+Dockerfile
+dockerfile
+
+# -------------------------------------------------------
+# CREDENTIALS & SECRETS
+# -------------------------------------------------------
+credentials
+credentials.json
+credentials.xml
+credentials.yaml
+credentials.yml
+credentials.csv
+credentials.txt
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.txt
+secrets.env
+passwords.txt
+passwords.csv
+passwords.json
+password.txt
+password.json
+apikeys.txt
+apikeys.json
+api_keys.txt
+api_keys.json
+api-keys.txt
+tokens.txt
+tokens.json
+token.txt
+auth.json
+auth.yaml
+authentication.json
+serviceaccount.json
+service-account.json
+service_account.json
+gcp-credentials.json
+gcp_credentials.json
+google-credentials.json
+google_credentials.json
+aws-credentials
+aws_credentials
+.aws/credentials
+cloud-credentials.json
+azure-credentials.json
+azure_credentials.json
+
+# -------------------------------------------------------
+# SSH & CRYPTOGRAPHIC KEYS
+# -------------------------------------------------------
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+id_dsa
+id_dsa.pub
+known_hosts
+authorized_keys
+private.key
+private.pem
+public.key
+public.pem
+server.key
+server.pem
+server.crt
+server.cer
+server.pfx
+server.p12
+client.key
+client.pem
+client.crt
+ca.key
+ca.pem
+ca.crt
+root.key
+root.pem
+root.crt
+signing.key
+encryption.key
+jwt.key
+jwt_secret.txt
+rsa.key
+ec.key
+dh.pem
+dhparam.pem
+keystore.jks
+keystore.p12
+truststore.jks
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.cer
+*.crt
+
+# -------------------------------------------------------
+# DATABASE DUMPS
+# -------------------------------------------------------
+dump.sql
+backup.sql
+database.sql
+db.sql
+full_dump.sql
+mysqldump.sql
+postgres.sql
+pg_dump.sql
+data.sql
+schema.sql
+migration.sql
+seed.sql
+export.sql
+backup.sql.gz
+dump.sql.gz
+database.sql.gz
+db.dump
+database.dump
+production.sql
+prod.sql
+staging.sql
+dev.sql
+backup.db
+database.db
+db.sqlite
+db.sqlite3
+data.db
+app.db
+users.db
+customers.db
+dump.tar.gz
+backup.tar.gz
+db_backup.zip
+database_backup.zip
+backup.zip
+
+# -------------------------------------------------------
+# INFRASTRUCTURE STATE & IaC
+# -------------------------------------------------------
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform.tfvars.json
+.terraform.lock.hcl
+variables.tf
+outputs.tf
+main.tf
+backend.tf
+provider.tf
+secrets.tfvars
+prod.tfvars
+staging.tfvars
+dev.tfvars
+ansible.cfg
+inventory
+inventory.yml
+inventory.yaml
+hosts
+hosts.yml
+playbook.yml
+site.yml
+vars/main.yml
+group_vars/all
+group_vars/all.yml
+host_vars/
+kubeconfig
+kube.config
+.kube/config
+kubectl.config
+cluster.yaml
+cluster.yml
+values.yaml
+values.yml
+secrets.yaml
+helm-values.yaml
+chart.yaml
+
+# -------------------------------------------------------
+# SOURCE CODE & REPOSITORIES
+# -------------------------------------------------------
+.git/config
+.git/HEAD
+.git/FETCH_HEAD
+.gitconfig
+.gitcredentials
+.svn/entries
+.hg/hgrc
+source.zip
+source.tar.gz
+src.zip
+code.zip
+app.zip
+backup-source.zip
+repository.zip
+repo.zip
+project.zip
+
+# -------------------------------------------------------
+# LOG FILES (SENSITIVE)
+# -------------------------------------------------------
+access.log
+error.log
+auth.log
+debug.log
+application.log
+app.log
+server.log
+web.log
+apache.log
+nginx.log
+iis.log
+php_error.log
+laravel.log
+rails.log
+django.log
+security.log
+audit.log
+transaction.log
+payment.log
+login.log
+admin.log
+system.log
+
+# -------------------------------------------------------
+# PII / PERSONAL DATA
+# -------------------------------------------------------
+users.csv
+users.json
+users.xlsx
+customers.csv
+customers.json
+customers.xlsx
+employees.csv
+employees.json
+employees.xlsx
+members.csv
+members.json
+contacts.csv
+contacts.json
+email-list.csv
+email_list.csv
+mailing-list.csv
+mailing_list.csv
+userdata.csv
+userdata.json
+pii.csv
+pii.json
+personal-data.csv
+personal_data.json
+kyc.csv
+kyc.json
+ssn.csv
+passport.csv
+id-documents.csv
+credit-cards.csv
+payment-data.csv
+payment_data.json
+
+# -------------------------------------------------------
+# FINANCIAL DATA
+# -------------------------------------------------------
+invoices.csv
+invoices.json
+transactions.csv
+transactions.json
+payments.csv
+payments.json
+billing.csv
+billing.json
+financial-report.xlsx
+financial_report.xlsx
+budget.xlsx
+budget.csv
+payroll.csv
+payroll.xlsx
+salary.csv
+salary.xlsx
+tax.csv
+tax.json
+accounting.csv
+accounting.xlsx
+bank-details.csv
+bank_details.json
+credit-card-data.csv
+
+# -------------------------------------------------------
+# CERTIFICATES & LICENSE FILES
+# -------------------------------------------------------
+license.key
+license.txt
+license.json
+activation.key
+serial.key
+product.key
+registration.key
+certificate.pem
+certificate.crt
+wildcard.pem
+wildcard.key
+star.pem
+ssl.key
+ssl.pem
+ssl.crt
+lets-encrypt.pem
+letsencrypt.key
+
+# -------------------------------------------------------
+# BACKUP ARCHIVES
+# -------------------------------------------------------
+backup.zip
+backup.tar
+backup.tar.gz
+backup.tar.bz2
+backup.7z
+backup.rar
+full-backup.zip
+site-backup.zip
+server-backup.zip
+db-backup.zip
+database-backup.zip
+files-backup.zip
+media-backup.zip
+archive.zip
+archive.tar.gz
+snapshot.zip
+export.zip
+data-export.zip
+old-site.zip
+old-files.zip
+migration.zip
+legacy.zip
+
+# -------------------------------------------------------
+# CLOUD PROVIDER SPECIFIC
+# -------------------------------------------------------
+.aws/credentials
+.aws/config
+aws-credentials.txt
+aws_access_key.txt
+aws_secret_key.txt
+boto.cfg
+.boto
+s3cfg
+.s3cfg
+gcloud.json
+service-key.json
+firebase-adminsdk.json
+firebase.json
+cloudflare-api.txt
+digitalocean-token.txt
+heroku-api.txt
+sendgrid-api.txt
+stripe-keys.txt
+twilio-credentials.txt
+slack-token.txt
+github-token.txt
+gitlab-token.txt
+npm-token.txt
+docker-credentials.txt
+registry-credentials.json

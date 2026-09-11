@@ -1,0 +1,119 @@
+# -------------------------------------------------------
+# Azure Storage Account Name Wordlist - Common Patterns
+# Author  : Mustafa Salha
+# Purpose : Use when you have a target keyword and want
+#           to brute-force storage account names manually
+# Usage   : python3 azure_blob_enum.py -f storage_accounts.txt
+# Note    : Replace COMPANY with your target keyword
+#           or use -k flag for auto-generation
+# -------------------------------------------------------
+
+# -------------------------------------------------------
+# GENERIC STANDALONE NAMES (no keyword)
+# -------------------------------------------------------
+storage
+storageaccount
+blobstorage
+datastorage
+filestorage
+cloudstorage
+azurestorage
+proddata
+devdata
+testdata
+stgdata
+uatdata
+backupdata
+archivedata
+companydata
+corporatedata
+enterprisedata
+maindata
+coredata
+primarydata
+globaldata
+publicdata
+privatedata
+shareddata
+commondata
+internaldata
+externaldata
+mediastore
+filestore
+datastore
+assetstore
+contentstore
+imagestore
+videostore
+docstore
+logstore
+backupstore
+archivestore
+prodstore
+devstore
+teststore
+stagingstore
+cdnstorage
+staticstorage
+webstorage
+appstorage
+apistorage
+servicestorage
+platformstorage
+
+# -------------------------------------------------------
+# SUFFIX PATTERNS (append to your target keyword)
+# -------------------------------------------------------
+# storage
+# store
+# data
+# backup
+# bak
+# dev
+# prod
+# staging
+# stg
+# test
+# uat
+# assets
+# media
+# files
+# docs
+# images
+# uploads
+# archive
+# logs
+# reports
+# dump
+# db
+# config
+# secrets
+# static
+# cdn
+# web
+# app
+# api
+# temp
+# tmp
+# cache
+# public
+# private
+# internal
+# admin
+# portal
+# client
+# users
+# share
+# shared
+# export
+# import
+# content
+# resources
+# infra
+# platform
+# core
+# main
+# primary
+# global
+# common
+# general
